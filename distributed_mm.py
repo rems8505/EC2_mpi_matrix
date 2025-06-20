@@ -7,7 +7,7 @@ comm = MPI.COMM_WORLD
 rank = comm.Get_rank()
 size = comm.Get_size()
 
-N = 500  # Matrix dimension
+N = 600  # Matrix dimension
 assert N % size == 0, f"Matrix size {N} not divisible by number of processes {size}"
 rows_per_proc = N // size
 

@@ -6,7 +6,7 @@ def serial_matrix_multiply(A, B):
     return np.dot(A, B)
 
 if __name__ == "__main__":
-    N = 500
+    N = 600
     A = np.random.rand(N, N)
     B = np.random.rand(N, N)
 
